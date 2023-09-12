@@ -1,0 +1,12 @@
+.titles, .dispaly-container{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.summary{
+  background-color:#FFF1E2;
+  padding: 50px;
+  height: 370px;
+  border-radius: 20px;
+}
