@@ -1,4 +1,4 @@
-const Display = (data, handleRemoveFromCart, handleDecreaseCart, handleIncreaseCart) => {
+const Display = ({data, handleRemoveFromCart, handleDecreaseCart, handleIncreaseCart}) => {
 
   return (
     <>

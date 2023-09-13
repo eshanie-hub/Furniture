@@ -15,7 +15,7 @@ const App = () => {
         <ToastContainer/>
         <Navbar />
         <Routes>
-          <Route path="/Shop" element={<Shop />}/>
+          <Route path="/" exact element={<Shop />}/>
           <Route path="/Cart" element={<Cart />}/>
         </Routes>
     </Router>

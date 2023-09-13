@@ -1,7 +1,7 @@
-import { data } from '../pages/furniture';
+
 import { arrow } from '../assets';
 
-const Card = (handleAddToCart) => {
+const Card = ({handleAddToCart, data}) => {
   return (
     <div className='text-center mt-10'>
       <div className='relative bg-[#FFF1E2] rounded-lg w-[250px] h-[300px] mt-10 pt-20 px-5'>
